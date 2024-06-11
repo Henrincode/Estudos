@@ -18,7 +18,5 @@ programa {
     }
 
     escreva("\n")
-
-
   }
 }
