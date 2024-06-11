@@ -1,6 +1,6 @@
-programa {
+programa{
 
-  funcao inicio() {
+  funcao inicio(){
 
     //Soma de dígitos
     //Calcule a soma dos dígitos de um número fornecido pelo usuário utilizando um laço de repetição.
@@ -19,12 +19,12 @@ programa {
       escreva("Digite outro número para somar ou ZERO para encerrar: ")
       leia(n)
       s = s + n
+
     }enquanto(n > 0)
 
     limpa()
 
     escreva("VALOR TOTAL: ", s, "\n\n")
-
 
   }
 }
