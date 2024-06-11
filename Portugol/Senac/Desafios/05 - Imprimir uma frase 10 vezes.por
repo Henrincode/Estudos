@@ -1,24 +1,11 @@
-programa
-{
+programa {
 	
-	funcao inicio()
-	{
-			// Imprimir uma frase 10 vezes
-			// Imprima a frase "Eu estou aprendendo laÃ§os de repetiÃ§Ã£o" 10 vezes utilizando um laÃ§o de repetiÃ§Ã£o.
+	funcao inicio() {
+    // Imprimir uma frase 10 vezes
+    // Imprima a frase "Eu estou aprendendo laços de repetição" 10 vezes utilizando um laço de repetição.
 
-			para(inteiro i = 1; i <= 10; i++){
-				escreva(i, ") Eu estou aprendendo laÃ§os de repetiÃ§Ã£o\n")
-			}
+    para(inteiro i = 1; i <= 10; i++) {
+      escreva(i, ") Eu estou aprendendo laços de repetição", "\n")
+    }
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
- * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 44; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */

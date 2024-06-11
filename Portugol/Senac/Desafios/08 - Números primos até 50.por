@@ -3,8 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		// NÃºmeros primos atÃ© 50
-		// Imprima todos os nÃºmeros primos de 1 a 50 utilizando um laÃ§o de repetiÃ§Ã£o.
+    // Números primos até 50
+    // Imprima todos os números primos de 1 a 50 utilizando um laço de repetição.
 		
 		caracter primo = 'v'
 
@@ -22,17 +22,6 @@ programa
 			}
 		}
 
-		escreva("sÃ£o nÃºmeros pirmos")
+		escreva("são números pirmos")
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
- * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 43; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */

@@ -1,19 +1,17 @@
-programa
-{
+programa {
 	
-	funcao inicio()
-	{
-		// Fatorial de um n√∫mero
-		// Calcule o fatorial de um n√∫mero fornecido pelo usu√°rio utilizando um la√ßo de repeti√ß√£o.
+	funcao inicio() {
+		// Fatorial de um n˙mero
+		// Calcule o fatorial de um n˙mero fornecido pelo usu·rio utilizando um laÁo de repetiÁ„o.
 
 		inteiro fatorial = 0, soma = 1
 
-		escreva("Informe um n√∫mero para saber seu fatorial: ")
+		escreva("Informe um n˙mero para saber seu fatorial: ")
 		leia(fatorial)
 
 		escreva("\n", fatorial, "! = ")
 
-		para(inteiro i = fatorial; i >= 1; i--){
+		para(inteiro i = fatorial; i >= 1; i--) {
 			soma = soma * i
 			
 			se(i > 1){
@@ -26,14 +24,3 @@ programa
 		escreva(" = ", soma)
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
- * Voc√™ pode apag√°-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 43; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
