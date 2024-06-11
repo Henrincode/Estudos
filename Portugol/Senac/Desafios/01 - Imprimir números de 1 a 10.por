@@ -3,8 +3,8 @@ programa
 	
 	funcao inicio()
 	{
-		// Imprimir nÃºmeros de 1 a 10
-		// Imprima os nÃºmeros de 1 a 10 utilizando um laÃ§o de repetiÃ§Ã£o.
+		// Imprimir números de 1 a 10
+		// Imprima os números de 1 a 10 utilizando um laço de repetição.
 
 		para(inteiro i = 1; i <= 10; i++){
 			escreva(i, " ")
