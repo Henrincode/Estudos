@@ -5,15 +5,19 @@ programa {
     // Quadrado mágico
     // Verifique se uma matriz fornecida pelo usuário é um quadrado mágico utilizando laços de repetição.
     // (Um quadrado mágico é uma matriz onde a soma de cada linha, coluna e diagonal é a mesma).
-    
-    inteiro t = 3, quadrado[t][t], somaLinhas[t][1] , somaColunas[t][1], somaDiagonais[2][1] = {{0},{0}}, somaTotal = 0
-    cadeia numerosDigitados = ""
+
+    inteiro t = 0
 
     //pergunta o tamanho do quadrado
     escreva("Informe o tamanho do quadrado mágico: ")
     leia(t)
 
     limpa()
+    
+    inteiro quadrado[t][t], somaLinhas[t][1] , somaColunas[t][1], somaDiagonais[2][1] = {{0},{0}}, somaTotal = 0
+    cadeia numerosDigitados = ""
+
+
     
     // preenche a matriz com 0 para iniciar uma soma sem erros
     para(inteiro linha = 0; linha < t; linha++) {
