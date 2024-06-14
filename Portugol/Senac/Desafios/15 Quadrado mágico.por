@@ -42,7 +42,7 @@ programa {
     // imprime o quadrado na tela e depois faz as somas
     para(inteiro linha = 0; linha <= t-1; linha++){
       para(inteiro coluna = 0; coluna <= t-1; coluna ++){
-        escreva(quadrado[linha][coluna], " ")
+        escreva("[", quadrado[linha][coluna], "]")
       }
       escreva("\n")
     }
