@@ -27,8 +27,9 @@ programa {
       para(inteiro coluna = 0; coluna <= t-1; coluna ++) {
         escreva("Digite os números em sequencia:", "\n", numerosDigitados)
         leia(quadrado[linha][coluna])
+        numerosDigitados += "["
         numerosDigitados += quadrado[linha][coluna]
-        numerosDigitados += " "
+        numerosDigitados += "] "
         limpa()
       }
       numerosDigitados += "\n"
