@@ -59,7 +59,7 @@ programa {
     faca{
       // vez do jogador 1
       desenha(quadrado)
-      escreva("\n", "Vez do jogador 1, marque o X!", "\n", "Informe primeiro a linha e depois a coluna ")
+      escreva("\n", "Vez do jogador 1, marque o X!", "\n", "Informe primeiro a linha e pressione ENTER, e depois a coluna ")
       leia(linha)
       escreva("Informe a coluna ")
       leia(coluna)
@@ -76,7 +76,7 @@ programa {
 
         // vez do jogador 2
         desenha(quadrado)
-        escreva("\n", "Vez do jogador 2, marque o O!", "\n", "Informe primeiro a linha e depois a coluna ")
+        escreva("\n", "Vez do jogador 2, marque o O!", "\n", "Informe primeiro a linha e pressione ENTER e depois a coluna ")
         leia(linha)
         escreva("Informe a coluna ")
         leia(coluna)
