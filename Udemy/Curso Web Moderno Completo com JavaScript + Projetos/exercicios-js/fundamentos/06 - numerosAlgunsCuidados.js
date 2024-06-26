@@ -1,5 +1,7 @@
 console.log(7 / 0) // Não se pode dividir um número por 0, vai dar infinito
 console.log("10" / 2) // interpreta texto como número se for só número
+console.log('3' + 2) // string nesse caso não soma com o inteiro porque ele concatena os dois
+console.log('3' - 2) // string nesse caso subtrai com o inteiro
 console.log("Show!" * 2) // Retorna NaN "Not a Number", que significa "Não é um Número". 
 
 // console.log(10.toString()) se estiver fora das () da erro
