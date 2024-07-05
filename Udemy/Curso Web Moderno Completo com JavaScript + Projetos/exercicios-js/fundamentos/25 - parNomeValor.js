@@ -11,8 +11,11 @@ const cliente = {
     nome: 'Pedro',
     idade: 32,
     endereco: {
-        endereco: 'Rua Muito Legal',
-        endereco: 123
+        logradouro: 'Rua Muito Legal',
+        numero: 123
     }
 }
-console.log(cliente.endereco)
+
+console.log(saudacao)
+console.log(exec())
+console.log(cliente)
