@@ -30,6 +30,6 @@ function soma(a,b) {
     }
 }
 
-soma(1, 2)(3)
-const cincoMais = soma(2, 3)
-cincoMais(4)
+soma(1, 2)(3) // imprimindo de forma direta
+const cincoMais = soma(2, 3) // imprimindo em etapas parte 1
+cincoMais(4) // parte 2
