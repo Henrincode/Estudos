@@ -1,5 +1,4 @@
-class Carro {
-    constructor(velocidadeMaxima = 200, delta = 5) {
+function Carro (velocidadeMaxima = 200, delta = 5) {
         // atributo privado
         let velocidadeAtual = 0
 
@@ -16,7 +15,6 @@ class Carro {
         this.getVelocidadeAtual = function () {
             return velocidadeAtual
         }
-    }
 }
 
 const uno = new Carro
